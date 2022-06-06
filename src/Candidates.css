@@ -1,0 +1,102 @@
+:root {
+  --color-red: #f91718;
+  --color-blue: #080850;
+}
+
+.Top-Bar {
+  width: 97%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 2%;
+  padding-bottom: 5px;
+  display: flex;
+  gap: 40%;
+  margin: 5px 0;
+}
+.borderd {
+  border: solid 1px var(--color-blue);
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Top-Bar span {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.699);
+}
+.Top-Bar .ACTIVE {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-blue);
+}
+.Top-Bar .ACTIVE::after {
+  content: "";
+  display: block;
+  width: 170px;
+  height: 2px;
+  background: var(--color-blue);
+  margin-top: 10px;
+}
+.CandiateMain {
+  width: 70%;
+  padding: 5px;
+}
+.Candiate-body {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  gap: 10px;
+}
+.UserIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.user-details {
+  height: 80px;
+  padding: 0px 10px;
+  display: block;
+}
+.eashField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eashField h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+.eashField span {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+.eashField .simpleContent {
+  margin: 0 100px 0 0;
+}
+.simpleContent .eashField {
+  margin: 5px 0 0 0;
+}
+.UserIcon img {
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.eashField img {
+  margin: 0;
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+.shortlist {
+  padding: 10px 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  color: var(--color-red);
+  font-weight: 600;
+  border: solid var(--color-red) 1px;
+  background: #fff;
+}

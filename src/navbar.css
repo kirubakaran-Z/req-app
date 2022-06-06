@@ -1,0 +1,58 @@
+nav {
+  background: #fff;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+  background: red;
+  position: absolute;
+  left: 50px;
+}
+.right-side-actions {
+  width: fit-content;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.search-bar {
+  position: relative;
+}
+.search-bar input {
+  height: 20px;
+  width: 300px;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+.search-bar button {
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  border: none;
+  background: #0000;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+.profile-actions {
+  width: 40px;
+  height: 40px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
